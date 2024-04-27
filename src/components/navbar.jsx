@@ -22,7 +22,7 @@ function Navbar({logout, Setlogout, SetShow}){
         <div className={styles.navConatiner}>
             <div className={styles.navLogoContainer}>
                 <div className={styles.navLogo}>
-                    <Link to='/'><img src="../../public/images/logo.jpg" alt="logo"/></Link>
+                    <Link to='/'><img src="https://main--find-near-by-hospitals.netlify.app/images/logo.jpg" alt="logo"/></Link>
                 </div>
             </div>
             <div className={styles.navButtonsContainer}>
