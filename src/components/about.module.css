@@ -1,0 +1,31 @@
+.aboutUsContainer{
+    width: 100%;
+    padding-top: 110px;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.aboutUs{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: justify;
+}
+
+.aboutUs h1{
+    font-family: sans-serif;
+}
+
+.aboutUs p{
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 17px;
+}
+.aboutUs ul li{
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 17px;
+}
