@@ -76,7 +76,7 @@ const Map = ({logout}) => {
             ]);
             console.log( position.coords.latitude,position.coords.longitude);
 
-            mapplsClassObject.initialize(import.meta.env.VITE_ACCESS_TOKEN, loadObject, () => {
+            mapplsClassObject.initialize("c30d0b7d-8f83-4cad-ab42-0a38a6724d90", loadObject, () => {
                 const newMap = mapplsClassObject.Map({
                   id: "map",
                   properties: {
@@ -84,15 +84,15 @@ const Map = ({logout}) => {
                     zoom: 4,
                   },
                 });
-          
+
                 newMap.on("load", () => {
                   setIsMapLoaded(true);
                   localStorage.setItem("map_loader","false")
                 });
-          
+
                 mapRef.current = newMap;
               });
-            
+              
           },
           (error) => {
             console.error('Error getting user location:', error);
